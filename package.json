@@ -1,0 +1,33 @@
+{
+  "name": "dalekjs-example",
+  "version": "0.0.1",
+  "description": "Simple example for using dalek.js",
+  "main": "github.js",
+  "scripts": {
+    "test": "./node_modules/dalek-cli/bin/cmd.js *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorilytter/dalekjs-example.git"
+  },
+  "keywords": [
+    "dalek.js",
+    "dalek",
+    "test",
+    "testing",
+    "end-to-end",
+    "javascript",
+    "acceptance"
+  ],
+  "author": "Jori Lytter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorilytter/dalekjs-example/issues"
+  },
+  "homepage": "https://github.com/jorilytter/dalekjs-example",
+  "devDependencies": {
+    "dalek-browser-chrome": "0.0.11",
+    "dalek-cli": "0.0.5",
+    "dalekjs": "0.0.9"
+  }
+}

@@ -2,7 +2,7 @@
 Simple example project for using dalek.js
 
 # Install
-* prequisites
+## prequisites
  * npm installed
 
 ```npm install```

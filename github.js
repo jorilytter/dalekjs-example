@@ -7,7 +7,7 @@ module.exports = {
     .type('input[name=q]', 'dalekjs')
     .submit('.js-site-search-form')
     .assert.text('.sort-bar > h3:nth-child(2)', 'We\'ve found 53 repository results')
-    .execute(function() {
+    .waitFor(function() {
       return $('li.repo-list-item:nth-child(1) > h3:nth-child(2) > a:nth-child(1)').text() === 'dalekjs/dalek'
     })
     .done();
